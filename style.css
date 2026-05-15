@@ -277,17 +277,20 @@ section { position: relative; z-index: 1; }
   color: var(--teal);
   letter-spacing: 0.05em;
 }
-.project-links { display: flex; gap: 0.8rem; }
+.project-links { display: flex; gap: 0.8rem; position: relative; z-index: 2; }
 .proj-link {
   font-family: var(--mono);
   font-size: 0.75rem;
-  color: var(--muted);
+  color: var(--teal);
   text-decoration: none;
   display: flex; align-items: center; gap: 0.3rem;
-  transition: color .2s;
+  transition: color .2s, opacity .2s;
   letter-spacing: 0.05em;
+  border-bottom: 1px solid var(--teal-dim);
+  padding-bottom: 1px;
+  position: relative; z-index: 2;
 }
-.proj-link:hover { color: var(--teal); }
+.proj-link:hover { color: #fff; border-bottom-color: #fff; }
 
 /* ── Skills ── */
 .skills-grid {
@@ -377,15 +380,15 @@ section { position: relative; z-index: 1; }
   display: flex; align-items: center; gap: 0.6rem;
   font-family: var(--mono);
   font-size: 0.82rem;
-  color: var(--muted);
+  color: var(--teal);
   text-decoration: none;
   padding: 0.7rem 1.4rem;
-  border: 1px solid var(--border);
+  border: 1px solid var(--teal-dim);
   border-radius: 2px;
   transition: all .25s;
   letter-spacing: 0.05em;
 }
-.contact-link:hover { color: var(--teal); border-color: var(--teal); box-shadow: 0 0 16px var(--teal-glow); }
+.contact-link:hover { color: #fff; border-color: var(--teal); box-shadow: 0 0 16px var(--teal-glow); background: rgba(0,212,204,0.08); }
 .contact-link svg { width: 16px; height: 16px; }
 
 /* ── CV ── */
