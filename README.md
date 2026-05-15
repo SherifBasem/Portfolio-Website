@@ -4,7 +4,7 @@ A personal portfolio website built for the Professional Training 3 course assign
 
 ## Live Site
 
-🔗 **[sherif-basem.github.io](https://sherif-basem.github.io)** ← replace with your actual URL
+🔗 **[sherif-basem.github.io]([https://sherif-basem.github.io](https://sherifbasem.github.io/Portfolio-Website/))** ← replace with your actual URL
 
 ---
 
